@@ -9,7 +9,7 @@ we can modify shared library code from rply pipeline syntax
 
 https://www.jenkins.io/doc/book/pipeline/development/
 
-https://jenkins.optum.com/link/blue/pipelines/ - create new pipeline on blueocean
+https://jenkins.org.com/project/blue/pipelines/ - create new pipeline on blueocean
 
 - each file in vars define one entire pipeline in call() method
 
@@ -19,14 +19,11 @@ Why do we have **IntelliJ IDEA Github Integration Plugin access token** added on
 
 may be we can use filesystem github
 
-https://github.optum.com/settings/tokens what are github personal access tokens
+https://github.org.com/settings/tokens what are github personal access tokens
 
 LAMU02Y80D8JG5J:~ rvashish\$ docker network create jenkins
-e13bcf20d2eb3a387b995d1ea597c03e3085ff11f78f3bcbf2bedc7f919e17f0
 
 http://localhost:8080/script - to test jenkins scripts
-
-https://jenkins.optum.com/link/pipeline-syntax/globals
 
 Kubernetes plugin - Jenkins plugin to run dynamic agents in a Kubernetes cluster. </br>
 https://plugins.jenkins.io/kubernetes/ </br>

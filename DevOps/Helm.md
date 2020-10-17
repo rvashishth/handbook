@@ -35,7 +35,7 @@ A chart repository is an HTTP server that houses an index.yaml file and optional
 ### helm repo
 
 - Add a hlem repo </br>
-  `$ helm repo add pulsar https://github.optum.com/pages/link/apache-pulsar-chart/`
+  `$ helm repo add pulsar https://github.org.com/pages/project/apache-pulsar-chart/`
 - Print the list of repo </br>
   `helm repo list`
 - Print the list of charts in a repo </br>
@@ -50,11 +50,11 @@ A chart repository is an HTTP server that houses an index.yaml file and optional
 - A same chart with same release name can not be installed twice. </br>
   `helm install release_name chart_files` </br>
   `helm install pulsar ./pulsar-1.0.0.tgz` </br>
-  `helm install pulsar https://github.com/pages/link/chart/stable/pulsar-1.0.0.tgz`
+  `helm install pulsar https://github.com/pages/project/chart/stable/pulsar-1.0.0.tgz`
 
 ### helm upgrade
 
-`helm upgrade pulsar --debug --install --create-namespace --namespace link -f examples/values-one-node.yaml charts/pulsar`
+`helm upgrade pulsar --debug --install --create-namespace --namespace mynamespace -f examples/values-one-node.yaml charts/pulsar`
 
 - with `--install` helm upgrade can install a chart if it is not already installed.
 - upgrading a chart version is not necessary, even if the chart version is same, `helm upgrade` will still upgrade the updated k8s resources

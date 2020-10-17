@@ -32,16 +32,16 @@
 
 [kubectl fails to port forward to ports <1024. All ports below 1024 require special permissions](https://stackoverflow.com/questions/53775328/kubernetes-port-forwarding-error-listen-tcp4-127-0-0-188-bind-permission-de)
 
-#### [How to define namespace for pods](https://github.optum.com/link/azure-foundation/issues/127)
+#### How to define namespace for pods
 
 | service               | namespace     | reference/reason                                                                                                                                                           |
 | --------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `aad-pod-identity`    | `kube-system` | [recommendation](https://github.com/Azure/aad-pod-identity#1-deploy-aad-pod-identity)                                                                                      |
 | `kured`               | `kured`       | [azure docs](https://docs.microsoft.com/en-us/azure/aks/node-updates-kured#deploy-kured-in-an-aks-cluster)                                                                 |
-| `signalfx`            | `link-system` | could be any with correct privileges                                                                                                                                       |
+| `signalfx`            | `org-system`  | could be any with correct privileges                                                                                                                                       |
 | `fluentd`             | `kube-system` | [example on fluentd docs](https://docs.fluentd.org/v/0.12/articles/kubernetes-fluentd#requirements)                                                                        |
-| `external-dns`        | `link-system` | no recommendation                                                                                                                                                          |
-| `agic`                | `link-system` | no recommendation other than [one example that uses `default`](https://azure.github.io/application-gateway-kubernetes-ingress/troubleshooting/#verify-observed-nampespace) |
+| `external-dns`        | `org-system`  | no recommendation                                                                                                                                                          |
+| `agic`                | `org-system`  | no recommendation other than [one example that uses `default`](https://azure.github.io/application-gateway-kubernetes-ingress/troubleshooting/#verify-observed-nampespace) |
 | `keyvault-csi-driver` | `kube-system` | no recommendation, but we feel it should be here                                                                                                                           |
 
 
