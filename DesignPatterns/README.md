@@ -1,0 +1,19 @@
+- [Database Per Service](./DesignPatterns/DatabasePerService/databasePerService.md)
+- Saga
+- Feature Toggle
+- CAP Theorem
+- Consistent Hashing
+- Load Balancing Algorithm
+- Domain Driven Design/Bounded Context
+- Data/Database Patterns
+  - Data Replication
+  - Partitioning()
+  - Sharding
+  - Scaling, Load balancing, Consistent Hashing
+- Security Patterns
+  - SSO and FSSO
+  - Authentication and Authorization Flows(Client Credential Flow)
+- Kubernetes Patterns
+  - Multicontainer Pods (Sidecar, Adapter, Ambassador)
+- Product planning
+  - MoSCoW

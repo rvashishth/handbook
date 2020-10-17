@@ -1,0 +1,13 @@
+- [CIDR to IPv4 Range calculator](https://www.ipaddressguide.com/cidr)
+- [Sample REST API for integration Test](https://httpbin.org/) - comes with a docker file
+- [CRON expression generator](https://www.freeformatter.com/cron-expression-generator-quartz.html)
+- [Regex](https://regex101.com/)
+- [Explain Shell Commands](https://explainshell.com/)
+- [JConsole](https://jsconsole.com/)
+- [Kubernetes YML Validator](https://kubeyaml.com/)
+- [Carbon.now.sh - Generate image of src code](https://carbon.now.sh/)
+- [excalidraw Draw simple sketch](https://excalidraw.com/)
+- [Generate fingerprint from a cert](https://www.samltool.com/fingerprint.php)
+- [gitignore all in one](https://github.com/github/gitignore)
+- [Ideaboard](https://ideaboardz.com/)
+  

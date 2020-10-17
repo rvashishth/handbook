@@ -1,0 +1,3 @@
+- A forbidden header name is the name of any HTTP header that cannot be modified programmatically like `referer`, `cookie`
+- `Origin` request header indicates where a fetch originates from. It is similar to the Referer header, but, unlike this header, it doesn't disclose the whole path.
+- The Origin header is not set on Fetch requests with a method of HEAD or GET

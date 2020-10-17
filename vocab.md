@@ -1,0 +1,6 @@
+- [Bounded Context](https://martinfowler.com/bliki/BoundedContext.html)
+- Domain Driven Design
+- [Polygot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html)
+- [RPO](https://www.druva.com/blog/understanding-rpo-and-rto/)
+- [RTO](https://www.druva.com/blog/understanding-rpo-and-rto/)
+- [NAT Network Address Translation](https://www.youtube.com/watch?v=FTUV0t6JaDA)

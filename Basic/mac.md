@@ -1,0 +1,3 @@
+- how we can display unix like tree structure of files on mac terminal
+  - `brew install tree`
+  - `folder_name$ tree` will print the tree structure of this folder contents

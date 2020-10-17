@@ -1,0 +1,1 @@
+- CloudFront don't forward all http headers to origins, it's always important to add forward headers in `ordered_cache_behavior`

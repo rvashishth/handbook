@@ -1,0 +1,81 @@
+## DevOps Technology Stack
+
+- Basics of infra
+  - VIM
+  - RDP(Remote Desktop Protocol - Win), SSH(Secure Shell - Linux)
+  - iptables
+  - NAT(Network Address Translation)](https://www.youtube.com/watch?v=FTUV0t6JaDA)
+  - mount point
+  - [Bastion host](https://en.wikipedia.org/wiki/Bastion_host), [Azure Bastion](https://azure.microsoft.com/en-in/services/azure-bastion/), [AWS Bastion](https://aws.amazon.com/quickstart/architecture/linux-bastion/)
+  - [Bash/Shell Script](./Basic/bash.md)
+  - Brew
+  - Curl
+  - Telnet
+  - Traceroute
+- Caching
+  - Infinispan
+  - redis
+- Messaging
+  - [Pulsar](./Pulsar.md)
+  - Kafka
+  - Apache ActiveMQ
+- Load balancer
+  - NGinx
+- [Docker](./Docker)
+- [Kubernetes](./Kubernetes)
+  - CRD - Custom Resource Definitions
+  - [Cert-Manager](https://cert-manager.io/docs/)
+  - [Nginx-ingress-controller](https://kubernetes.github.io/ingress-nginx/)
+  - [Core DNS](https://coredns.io/)
+  - [External DNS](https://github.com/kubernetes-sigs/external-dns)
+  - [Lens IDE](https://github.com/lensapp/lens)
+  - [Velero backup](https://velero.io)
+  - [Kured](https://github.com/weaveworks/kured)
+  - [Operator Hub](https://operatorhub.io)
+  - [Operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager)
+- Terraform
+  - Helm Provider
+  - Kubernetes Provider
+  - Kubernetes Alpha Provider
+  - Azure Resource Manager
+- Helm
+- AWS
+  - Cloudfront
+  - Lambda
+  - S3
+  - Route53
+  - IAM(Identity and access Management)
+- Azure
+  - AFD
+  - Traffic Manager
+  - Load Balancer
+  - Application Gateway
+  - [Application Gateway Ingress Controller](https://github.com/Azure/application-gateway-kubernetes-ingress)
+  - AKS
+  - [Azure Bastion](https://docs.microsoft.com/en-gb/azure/bastion/bastion-create-host-portal)
+  - Azure Monitor
+  - Event Hub
+  - AD, AD B2C
+  - https://status.azure.com/en-us/status
+- [openpolicyagent.org](https://www.openpolicyagent.org)
+- Monitoring and logging
+  - [OpenTelemetry](https://opentelemetry.io/) = [OpenTracing](https://opentracing.io/) + [OpenCensus](https://opencensus.io/)
+  - Prometheus
+  - Splunk
+  - SignalFx
+  - NewRelic
+  - Elastic
+    - Kibana
+    - Logstash
+    - APM
+    - Elastic search
+  - Grafana
+- Service Mesh
+  - [Istio](https://istio.io/)
+- Tools 
+  - [Jq - json parser](https://stedolan.github.io/jq/)
+  - [wireshark - tcp](https://www.wireshark.org/)
+### Reference
+
+- [The ultimate list of DevOps Tools](https://xebialabs.com/the-ultimate-devops-tool-chest/)
+- [Major DevOps tools](https://about.gitlab.com/devops-tools/)
