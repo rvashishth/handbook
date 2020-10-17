@@ -14,4 +14,4 @@
 
 ### [Awesome tech](./awesome-tech.md)
 
-### [Good Reads](./good-reads.md)
+### [Good Reads](./Good-Reads.md)
