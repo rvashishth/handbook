@@ -1,7 +1,7 @@
 ### Core
 
 - **ApplicationReadyEvent** - application is ready to serve requests
-- **ApplicationFailedEvent** - Event published by a link SpringApplication when it fails to start
+- **ApplicationFailedEvent** - Event published by a SpringApplication when it fails to start
 - **@RefreshScope** -
 
 ### Spring Boot
@@ -21,7 +21,7 @@
     ```
     routes:
         - id: oauth-token
-          uri: https://idxurl.com
+          uri: https://authserverurl.com
           predicates:
             - Path=/oauth/token
     ```
@@ -43,7 +43,7 @@
 
 - To add a filter and apply it to all routes, you can use `spring.cloud.gateway.default-filters`
 - Alternative to application.properties we can also use `RouteLocatorBuilder` to define routes in Java
-- In Link we have created a `GenericFilterFactory` by extending `AbstractGatewayFilterFactory`
+- We can creat a `GenericFilterFactory` by extending `AbstractGatewayFilterFactory`
 - Filter vs Global filters
 - **How to read request body.** </br>
   Request body has constraint that can only be read once per request.

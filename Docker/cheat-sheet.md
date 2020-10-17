@@ -21,7 +21,7 @@ $docker build -t myrepo/myimage .
 Tag multiple repo for single docker build
 
 ```bash
-$docker build -t azure-acr/scg -t optum-repo/scg
+$docker build -t azure-acr/scg -t org-repo/scg
 ```
 
 ### Docker run
@@ -35,5 +35,5 @@ $docker run -it busybox sh
 Docker run with local volume mount
 
 ```bash
-docker run --rm -it --name azure-cli -v /Users/rvashish/intellijworkspaces/link/pulsar-perf/cert:/home/cert docker.repo1.uhc.com/microsoft/azure-cli /bin/bash
+docker run --rm -it --name azure-cli -v /file/path/pulsar-perf/cert:/home/cert docker.repo1.uhc.com/microsoft/azure-cli /bin/bash
 ```

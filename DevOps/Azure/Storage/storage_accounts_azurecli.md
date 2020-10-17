@@ -23,7 +23,7 @@ Reference article https://docs.microsoft.com/en-us/cli/azure/use-cli-effectively
 
 Download the certificate chain for given fileshare url i.e. https://o360deliverytfstatesbx.file.core.windows.net/pulsar-perf
 
-Above has four certs, one root `Optum Root CA`, two intermediate `OptumInternalPolicyCA2`, `UHGInterwebproxy2020.uhc.com` and one azure file share `*.file.core.windows.net`
+Above has four certs, one root `ORG Root CA`, two intermediate `ORGInternalPolicyCA2`, `ORGInterwebproxy2020.uhc.com` and one azure file share `*.file.core.windows.net`
 
 Convert `.cer` to `.pem`
 https://support.ssl.com/Knowledgebase/Article/View/19/0/der-vs-crt-vs-cer-vs-pem-certificates-and-how-to-convert-them
