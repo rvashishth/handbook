@@ -1,6 +1,4 @@
 - [FAQ](#faq)
-- [Pulsar At Link](#pulsar-at-link)
-  - [How to run pulsar-admin cli commands from within the pods](#how-to-run-pulsar-admin-cli-commands-from-within-the-pods)
 - [Multi Region Cluster](#multi-region-cluster)
 - [Benchmarking](#benchmarking)
 
@@ -64,32 +62,6 @@ Issues
 
 - /bin/benchmark.sh is unable to pass classes to `java -server -cp` command.
 - Test Benchmark.java class by passing required parameters
-
-## Pulsar At Link
-
-https://github.optum.com/link/azure-infrastructure/pull/23
-
-How to open pulsar console in local
-
-```bash
-$az loing
-$az aks get-credentials --resource-group=link-platform-pr-23 --name=link-platform-pr-23-k8s
-$kubectl port-forward pulsar-pulsar-manager-7c56b5786f-vrclb 9527:9527 -n pulsar
-```
-
-http://localhost:9527
-
-- Username: pulsar
-- Password: pulsar
-
-Delete storage manually from link-pipeline resource group if we are to delete pulsar
-`Azure > Home > Resource groups > link-pipelines > linkinfrastructure - Storage Explorer (preview) > Blob Containers > tfstate`
-
-### How to run pulsar-admin cli commands from within the pods
-
-do broker health check  
-$ docker exec -it broker-pod/container bash
-pulsar$bin/pulsar-admin brokers healthcheck
 
 ## Multi Region Cluster
 

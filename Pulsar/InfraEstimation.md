@@ -2,7 +2,6 @@
 - [Infra Estimation](#infra-estimation)
   - [Overview](#overview)
   - [Disk Storage Size](#disk-storage-size)
-    - [Size requirements per client](#size-requirements-per-client)
   - [Pods Resources (Broker & Bookie)](#pods-resources-broker--bookie)
   - [VM](#vm)
   - [Performance Test Results](#performance-test-results)
@@ -12,18 +11,6 @@
 This document intent to evaluate & estimate required infrastructure for pulsar cluster, basis on the workload required workload capabilities.
 
 ## Disk Storage Size
-
-### Size requirements per client
-
-ODX ( 10 TB per hour x retention period)
-          Message Size 90% msg - 100k, about 10% 1 mb with about 1% messages having size around 25mb
-          600K per hours per topic
-          20 topics
-          2 copy per msg 
-eFR  (10 TB per hour x retention Period)
-          Message Size - 10mb
-          500K per hours
-          2 copy per msg
 
 ## Pods Resources (Broker & Bookie)
 
@@ -76,4 +63,3 @@ Aggregated End To End Latency Avg 38 ms
 
 CPU utilization was around 70% 
 
-https://jenkins-link.ocp-ctc-core-nonprod.optum.com/job/Link/job/pulsar-perf/job/vnet/17

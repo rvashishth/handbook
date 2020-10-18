@@ -4,10 +4,10 @@
 ### how to merge history from different remote origin
 
 1. add new remote origin for </br>
-   `$ git remote add link-origin https://github.optum.com/rvashish/apache-pulsar-chart.git`
+   `$ git remote add other-origin https://github.org.com/rvashish/apache-pulsar-chart.git`
 
 2. change upstream for your branch </br>
-   `$ git branch master -u link-origin/master`
+   `$ git branch master -u other-origin/master`
 
 3. Git pull from pulsar remote origin </br>
    `$ git pull --allow-unrelated-histories`
@@ -16,17 +16,17 @@
 
 5. Change upstream of your branch to previous origin
 
-6. Push merged changes back in link branch
+6. Push merged changes back in org branch
 
 7. Move a repo between organization with history
    1. clone original repo
       `https://github.com/openmessaging/openmessaging-benchmark.git`
    2. create new repo 
-      `https://github.optum.com/link/openmessaging-benchmark.git`
+      `https://github.org.com/other/openmessaging-benchmark.git`
    3. add origin  of new repo  in original repo's clone
-      `git remote add linkorigin https://github.optum.com/link/openmessaging-benchmark.git`
+      `git remote add otherorigin https://github.org.com/other/openmessaging-benchmark.git`
    4. push master branch on new origin
-      `git push -u linkorigin master`
+      `git push -u otherorigin master`
 
 
 ### Use vscode as default git diff tool
@@ -47,7 +47,7 @@ In my case I wanted to compare across repos, so I added a remote and then did th
 
 ```
 cd \path\to\repo
-git remote add other_repo https://github.optum.com/whatever.git
+git remote add other_repo https://github.org.com/whatever.git
 git fetch other_repo
 git diff other_repo/branch_on_other_repo // compares entire branch
 git difftool other_repo/branch_on_other_repo -- path/file.txt // compares single file that exists in both

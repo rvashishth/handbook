@@ -17,7 +17,7 @@
 - how to login to azure aks cluster
   ```
   $az aks get-credentials --resource-group=rg_name --name=aks_cluster_name
-  $az aks get-credentials --resource-group=link-platform-pr-23 --name=link-platform-pr-23-k8s
+  $az aks get-credentials --resource-group=rg --name=pr-k8s
   ```
   now you can browse the cluster using `kubectl` commands
 - how to check k8s supported versions in AKS </br>

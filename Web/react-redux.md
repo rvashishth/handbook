@@ -77,7 +77,7 @@ Thunk middleware allow us to create a action creator function</br>
 
 FAQ
 
-1. **How in link we wire up state with components**</br>
+1. **How to ire up state with components**</br>
    Under /state/ducks we create files for each functionality which contains Action Type, Reducer, Action Creator and default state for this functionality i.e. transactions</br>
    Import this reducer in another /state/reducer.js file. Here we pass all the reducers and create rootReducer of type RootReducer using Redux.combineReducers. Then export the root reducer. </br>
    Now we import rootReducer in /state/store.js and use Redux.createStore with applymiddleware to create and export the store</b>

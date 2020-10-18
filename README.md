@@ -2,9 +2,9 @@
 
 ### [Basics](./Basic/README.md)
 
-### [Web Technologies](./Technologies/web/README.md)
+### [Web Technologies](./Web/README.md)
 
-### [Backend Technologies](./Technologies/backend/README.md)
+### [Backend Technologies](./Backend/README.md)
 
 ### [DevOps Technologies](./DevOps/README.md)
 
@@ -14,4 +14,6 @@
 
 ### [Utility Sites](./utility-sites.md)
 
-### [Good Reads](./good-reads.md)
+### [Awesome tech](./awesome-tech.md)
+
+### [Good Reads](./Good-Reads.md)
