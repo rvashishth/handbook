@@ -1,5 +1,7 @@
 ## Index
 
+### [Basics](./Basic/README.md)
+
 ### [Web Technologies](./Technologies/web/README.md)
 
 ### [Backend Technologies](./Technologies/backend/README.md)
