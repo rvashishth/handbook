@@ -18,6 +18,7 @@
 - [vs code intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 - [Gitmoji](https://gitmoji.carloscuesta.me)
+- [Markdown Table Editor](https://marketplace.visualstudio.com/items?itemName=clover.md-table-editor)
 
 ### DevOps
 
