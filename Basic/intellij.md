@@ -63,3 +63,9 @@ List all the members of a class </br>
 
 **Gradle window is not available for a gradle project** </br>
 File > Re-import gradle project
+
+### FAQ
+
+1. [IntelliJ inspection gives “Cannot resolve symbol” but still compiles code](https://stackoverflow.com/questions/5905896/intellij-inspection-gives-cannot-resolve-symbol-but-still-compiles-code)
+Ans:  Option 1: Invalidate cache and restart
+      Option 2: Delete .idea directory, and re-import
